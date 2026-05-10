@@ -3,7 +3,7 @@
 ```
 pkg install git -y
 pkg install python -y
-git clone https://github.com/pinguinsec/DDoS.git
+git clone https://github.com/lubebansokheker/DDoS.git
 cd DDoS
 pip install -r requirements.txt
 python stress.py
@@ -33,7 +33,7 @@ python3 stress.py -t target.com -p 80 --protocol slowloris -T 200 --keep-alive
 
 
 
-## SIMPLE RUN
+### SIMPLE RUN
 ```
 python3 stress.py -t example.com -p 80 --protocol http --method GET -T 100 -d 30
 ```
